@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col s5">
+        <h4>{{ location }}</h4>
+        <p><strong>Humidity: </strong>{{ currentWeather.humidity }}</p>
+        <p><strong>Temperature (Average): </strong>{{ currentWeather.temp }}</p>
+        <p><strong>Temperature (High): </strong>{{ currentWeather.temp_high }}</p>
+        <p><strong>Temperature (Low): </strong>{{ currentWeather.temp_low }}</p>
+        <p><strong>Status: </strong>{{ currentWeather.status }}</p>
+    </div>
+    <div class="col s7">
+        <img [src]="imgUrl">
+    </div>
+</div>
